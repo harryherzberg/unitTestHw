@@ -12,7 +12,7 @@ class Cube:
     print(self.volume)
 
 
-class TestStringMethods(unittest.TestCase):
+class myTest(unittest.TestCase):
     #tests to see if an actual cube works (should pass)
     def testCubing(self):
         myCube = Cube()
