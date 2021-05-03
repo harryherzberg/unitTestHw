@@ -5,7 +5,7 @@ class List:
     self.arry = []
     self.avg = 0
   def append(self):
-    filler = int( ( "what number needs to be appended: ") )
+    filler = int(input ( "what number needs to be appended: ") )
     self.arry.append(filler)
   def avgMe(self):
     if len(self.arry) == 0:
@@ -46,4 +46,4 @@ try:
   if __name__ == '__main__':
     unittest.main()
 except:
-  print("gay")
+  print("error")
